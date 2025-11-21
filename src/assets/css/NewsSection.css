@@ -1,0 +1,327 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+
+.auto-container {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.pos-rel {
+     position: relative;
+ }
+
+.bg-cover {
+     background: no-repeat;
+     background-size: cover;
+     background-position: center;
+     position: relative;
+ }
+ .news-section {
+     padding: 80px 0px;
+ }
+
+ .news-head {
+     padding-bottom: 0px;
+ }
+
+ .news-h4 {
+     font-size: 40px;
+     font-weight: 500;
+ }
+
+ .news-container {
+     padding: 30px;
+     margin-top: 10px;
+     border-radius: 10px;
+     box-shadow: 0px 0px 100px 0px rgba(0, 0, 0, 0.1);
+     background: #fff;
+ }
+
+ .news-div {
+     padding: 0px 10px;
+     margin-left: 0px;
+     margin-right: 0px;
+ }
+
+ .card {
+     background-clip: none;
+     border: none;
+     border-radius: 0;
+     background-color: transparent;
+ }
+
+ .border-r {
+     border-radius: 20px;
+     border: none;
+     position: relative;
+ }
+
+ .news-h5 {
+     font-size: 15px;
+     background-color: #f5f5f5;
+     margin-right: 208px;
+     padding: 4px 18px;
+     border-radius: 20px;
+ }
+
+ .card-text {
+     font-size: 19px;
+     font-weight: 500;
+ }
+
+ .card-btn {
+     text-decoration: none;
+     color: #000;
+     font-size: 17px;
+ }
+
+ .news-img-section {
+     padding: 5px 7px;
+ }
+
+ .news-icon::before {
+     background-color: orangered;
+     padding: 6px;
+     border-radius: 50%;
+     color: white;
+     font-size: 10px;
+ }
+
+ .img-calender {
+     content: "";
+     position: absolute;
+     top: 20px;
+     left: 47px;
+     background-color: #000;
+     color: white;
+     font-size: 13px;
+     width: 60px;
+     height: 57px;
+ }
+
+ .calender-h2 {
+     font-size: 20px;
+     color: orangered;
+ }
+
+
+
+ 
+@media (max-width: 1200px) {
+  .news-h4 {
+    font-size: 36px;
+  }
+
+  .news-container {
+    padding: 25px;
+  }
+
+  .card-text {
+    font-size: 18px;
+  }
+
+  .card-btn {
+    font-size: 16px;
+  }
+
+  .news-h5 {
+    margin-right: 150px;
+  }
+}
+
+
+@media (max-width: 992px) {
+  .news-h4 {
+    font-size: 32px;
+  }
+
+  .news-container {
+    padding: 20px;
+    margin-top: 15px;
+  }
+
+  .card-text {
+    font-size: 17px;
+  }
+
+  .news-h5 {
+    margin-right: 120px;
+    padding: 4px 14px;
+  }
+
+  .card-btn {
+    font-size: 15px;
+  }
+
+  .img-calender {
+    top: 15px;
+    left: 35px;
+    width: 50px;
+    height: 48px;
+  }
+
+  .calender-h2 {
+    font-size: 18px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .news-h4 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .news-div {
+    padding: 0 5px;
+  }
+
+  .news-container {
+    margin-top: 20px;
+    padding: 18px;
+  }
+
+  .news-h5 {
+    margin-right: 100px;
+    font-size: 14px;
+    padding: 3px 12px;
+  }
+
+  .card-text {
+    font-size: 16px;
+  }
+
+  .card-btn {
+    font-size: 14px;
+  }
+
+  .img-calender {
+    top: 12px;
+    left: 25px;
+    width: 45px;
+    height: 43px;
+  }
+
+  .calender-h2 {
+    font-size: 16px;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .news-h4 {
+    font-size: 24px;
+  }
+
+  .news-container {
+    padding: 15px;
+    margin-top: 15px;
+  }
+
+  .card-text {
+    font-size: 14px;
+  }
+
+  .news-h5 {
+    margin-right: 80px;
+    font-size: 13px;
+    padding: 2px 10px;
+  }
+
+  .card-btn {
+    font-size: 13px;
+  }
+
+  .img-calender {
+    top: 10px;
+    left: 15px;
+    width: 40px;
+    height: 38px;
+  }
+
+  .calender-h2 {
+    font-size: 14px;
+  }
+}
+
+
+
+@media (max-width: 480px) {
+  .news-h4 {
+    font-size: 20px;
+  }
+
+  .news-container {
+    padding: 12px;
+    margin-top: 10px;
+  }
+
+  .news-h5 {
+    margin-right: 60px;
+    font-size: 12px;
+    padding: 2px 8px;
+  }
+
+  .card-text {
+    font-size: 13px;
+  }
+
+  .card-btn {
+    font-size: 12px;
+  }
+
+  .img-calender {
+    top: 8px;
+    left: 10px;
+    width: 35px;
+    height: 33px;
+  }
+
+  .calender-h2 {
+    font-size: 12px;
+  }
+}
+
+
+@media (max-width: 320px) {
+  .news-h4 {
+    font-size: 18px;
+  }
+
+  .news-container {
+    padding: 10px;
+  }
+
+  .news-h5 {
+    margin-right: 50px;
+    font-size: 11px;
+    padding: 2px 6px;
+  }
+
+  .card-text {
+    font-size: 12px;
+  }
+
+  .card-btn {
+    font-size: 11px;
+  }
+
+  .img-calender {
+    top: 6px;
+    left: 8px;
+    width: 30px;
+    height: 28px;
+  }
+
+  .calender-h2 {
+    font-size: 10px;
+  }
+}

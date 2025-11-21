@@ -1,0 +1,18 @@
+{
+  "blognews": [
+    {
+      "id": 1,
+      "title": "AI Transforming Finance",
+      "date": "12-Nov-2025",
+      "image": "https://picsum.photos/600/400?random=1",
+      "content": "Full content about AI transforming finance..."
+    },
+    {
+      "id": 2,
+      "title": "Future of Outsourcing",
+      "date": "14-Nov-2025",
+      "image": "https://picsum.photos/600/400?random=2",
+      "content": "Detailed article on future outsourcing..."
+    }
+  ]
+}

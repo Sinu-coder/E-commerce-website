@@ -1,0 +1,169 @@
+.footer-section {
+     position: relative;
+     background-color: #000;
+
+ }
+
+ 
+
+ .foo-h3 {
+     color: #B4B4B4;
+     font-size: 20px;
+ }
+
+ .social-media {
+     background-color: #333333;
+     color: white;
+     padding: 10px 12px;
+     border-radius: 50%;
+
+ }
+
+ .f-h3 {
+     color: white;
+     font-size: 24px;
+     padding-left: 30px;
+ }
+
+ .foo-icon-icon a {
+     text-decoration: none;
+ }
+
+ .f1-ul ul {
+     list-style: none;
+ }
+
+ .f1-ul li a {
+     text-decoration: none;
+     color: #B4B4B4;
+     font-size: 18px;
+ }
+
+ .social-icon {
+     padding-right: 10px;
+     color: orangered;
+ }
+
+ .message-icon {
+     color: #B4B4B4;
+ }
+
+ .location-section {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     background: #333333;
+     border-radius: 20px;
+     padding: 17px;
+     color: white;
+     gap: 5px;
+ }
+
+ .loc-box {
+     border-right: 1px solid #ccc;
+     padding: 26px 111px 11px 16px;
+ }
+
+ .loc-head {
+     padding-right: 60px;
+ }
+
+ .location-section:last-child {
+     border-right: none;
+ }
+
+ .footer-last-section {
+     padding: 30px 0px;
+     color: #ccc;
+ }
+
+
+
+ @media (min-width: 1200px) {
+    .location-section {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+        padding: 17px;
+    }
+
+    .loc-box {
+        padding: 26px 111px 11px 16px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .location-section {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        padding: 15px;
+    }
+
+    .loc-box {
+        padding: 20px 50px 15px 16px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .location-section {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 15px;
+        gap: 10px;
+    }
+
+    .loc-box {
+        padding: 20px;
+        border-right: 1px solid #ccc;
+    }
+
+    .loc-box:nth-child(2n) {
+        border-right: none;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .location-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        padding: 15px;
+    }
+
+    .loc-box {
+        border-right: 1px solid #ccc;
+        padding: 15px;
+    }
+
+    .loc-box:nth-child(2n) {
+        border-right: none;
+    }
+
+    .f1-ul li a {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 576px) {
+    .location-section {
+        display: block;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .loc-box {
+        border-right: none;
+        padding: 15px;
+        margin-bottom: 10px;
+    }
+
+    .f-h3, .foo-h3 {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .f1-ul li a {
+        font-size: 16px;
+    }
+
+    .social-media {
+        padding: 8px 10px;
+    }
+}

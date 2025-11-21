@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+
+.auto-container {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.pos-rel {
+     position: relative;
+ }
+
+.bg-cover {
+     background: no-repeat;
+     background-size: cover;
+     background-position: center;
+     position: relative;
+ }
+
+ .contact {
+     position: relative;
+     z-index: 1;
+     margin-top: 176px;
+ }
+
+ .contact::before {
+     position: absolute;
+     content: "";
+     height: 100%;
+     width: 100%;
+     top: 0;
+     left: 0;
+     background: #000;
+
+ }
+
+ 
+ .contant-form-div {
+     position: relative;
+ }
+
+ .form {
+     transform: translateY(-120px);
+ }
+
+ .contact-form {
+     padding: 30px;
+     background-color: white;
+     box-shadow: -10px 0px 35px 0px rgba(0, 0, 0, );
+ }
+
+ .contact-head {
+     position: relative;
+     margin-bottom: 26px;
+ }
+
+ .con-h4 {
+     font-size: 30px;
+ }
+
+ .form {
+     border-radius: 24px;
+     overflow: hidden;
+     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+ }
+
+ .form-control {
+     padding: 0.9rem 0.75rem;
+ }
+
+ .pad-b {
+     padding-bottom: 30px;
+ }
+
+ .con-content {
+     width: 85%;
+ }
+
+ .captch {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 24px;
+ }
+
+ .btn-style-two {
+     background-color: black;
+     color: white;
+     font-size: 17px;
+     font-weight: 700;
+     border: none;
+     border-radius: 100px;
+     padding: 17px 40px;
+     text-decoration: none;
+ }
+
+ .img-before::before {
+     position: absolute;
+     content: "";
+     background: linear-gradient(360deg, rgba(0, 0, 0, 0.65) 21.63%, rgba(0, 0, 0, 0) 62.77%);
+     height: 100%;
+     width: 100%;
+ }
+
+ .bg-head {
+     position: absolute;
+     bottom: 48px;
+     left: 57px;
+ }
+
+ .bg-head-h5 {
+     padding-bottom: 30px;
+     font-size: 30px;
+     color: white;
+ }
+
+
+ 
+
+
+@media (max-width: 992px) {
+  .contact {
+    margin-top: 100px;
+  }
+  .form {
+    transform: translateY(-60px);
+    padding: 25px;
+  }
+
+  .con-h4 {
+    font-size: 26px;
+  }
+
+  .bg-head-h5 {
+    font-size: 24px;
+  }
+
+  .img-before {
+    min-height: 450px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .contact {
+    margin-top: 80px;
+  }
+
+  .row.g-0 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .col-lg-6 {
+    width: 100%;
+  }
+
+  .form {
+    /* transform: none; */
+    margin-top: 0;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  .img-before {
+    min-height: 350px;
+    margin-top: 20px;
+  }
+
+  .bg-head {
+    bottom: 40px;
+    left: 30px;
+  }
+
+  .bg-head-h5 {
+    font-size: 22px;
+  }
+
+  .con-content {
+    width: 100%;
+  }
+
+  .btn-style-one {
+    padding: 10px 28px;
+    font-size: 15px;
+  }
+  .btn-style-two {
+    font-size: 15px;
+    padding: 14px 30px;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .form {
+    padding: 15px;
+  }
+
+  .con-h4 {
+    font-size: 22px;
+  }
+
+  .con-p {
+    font-size: 14px;
+  }
+
+  .bg-head-h5 {
+    font-size: 18px;
+  }
+
+  .btn-style-one {
+    padding: 10px 22px;
+    font-size: 14px;
+  }
+
+  .d-flex.align-items-center {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  #captchaInput {
+    width: 60%;
+  }
+
+  .img-before {
+    min-height: 300px;
+  }
+  .btn-style-two {
+    width: 100%;           
+    text-align: center;
+    padding: 12px 20px;
+    font-size: 14px;
+    border-radius: 50px;
+  }
+}
+@media (max-width: 576px) and (min-width: 480px) {
+    .btn-style-two {
+        font-size: 14px;
+        padding: 12px 25px;
+    }
+}
+
+@media (max-width: 480px) and (min-width: 420px) {
+    .btn-style-two {
+        font-size: 13px;
+        padding: 11px 22px;
+    }
+}
+
+@media (max-width: 380px) and (min-width: 320px) {
+    .btn-style-two {
+        font-size: 11px;
+        padding: 9px 18px;
+        border-radius: 45px;
+    }
+}
+
+
+@media (max-width: 320px) {
+    .btn-style-two {
+        font-size: 10px;
+        padding: 8px 16px;
+        width: 100%;
+        border-radius: 40px;
+    }
+    .form {
+        /* transform: translateY(0); */
+        padding: 10px;
+    }
+    .con-h4 {
+        font-size: 18px;
+    }
+    .con-p {
+        font-size: 12px;
+    }
+    .bg-head-h5 {
+        font-size: 16px;
+        left: 10px;
+        bottom: 10px;
+    }
+}

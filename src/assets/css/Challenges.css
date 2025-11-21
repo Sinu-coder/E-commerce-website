@@ -1,0 +1,197 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    outline: none;
+    font-size: 100%;
+}
+
+.auto-container {
+    position: static;
+    padding: 0px 15px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.pos-rel {
+    position: relative;
+}
+.pos-abs{
+    position: absolute;
+}
+.pad-b{
+    /* padding-bottom: 25px; */
+}
+.pad-l-r{
+    padding: 0px 45px;
+}
+.pad-t{
+    padding: 20px 0px;
+}
+.bg-black{
+    background-color: #151515;
+    border: none;
+    padding: 15px 0px;
+}
+
+.bg-cover {
+    background: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.mr-l{
+    margin-left: 30px;
+}
+
+
+.Challenges{
+
+}
+.chall-head{
+ padding-bottom: 30px;
+}
+.chall-h1{
+  font-size: 50px;
+  font-weight: 500;
+}
+.chall-p{
+    font-size: 20px;
+}
+.card-ch{
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+}
+.card-body-ch-b{
+    padding: 3rem 2rem;
+}
+.card-title-ch-ct{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.card-text-ch-tx{
+    font-size: 17px;
+    font-weight: 400;
+}
+.img-float{
+    bottom: -1px;
+    right: 50px;
+     animation: float 3s ease-in-out infinite;
+ }
+ @keyframes float {
+            0% {
+                transform: translateX(0);
+            }
+
+            50% {
+                transform: translateX(-20px);
+            }
+
+            100% {
+                transform: translateX(0);
+            }
+        }
+
+
+
+
+@media (max-width: 1200px) {
+
+    .chall-h1 {
+        font-size: 45px;
+    }
+
+    .chall-p {
+        font-size: 19px;
+    }
+
+    .card-body-ch-b {
+        padding: 2.8rem 2rem;
+    }
+}
+
+
+@media (max-width: 992px) {
+
+    .chall-h1 {
+        font-size: 40px;
+    }
+
+    .chall-p {
+        font-size: 18px;
+    }
+
+    .card-ch {
+        margin-bottom: 20px;
+    }
+
+    .img-float {
+        right: 40px;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .chall-h1 {
+        font-size: 35px;
+    }
+
+    .chall-p {
+        font-size: 18px;
+    }
+
+    .card-body-ch-b {
+        padding: 2.5rem 1.5rem;
+    }
+
+    .img-float {
+        right: 30px;
+        width: 90px;
+    }
+
+    .pad-l-r {
+        padding: 0 20px;
+    }
+}
+
+
+@media (max-width: 576px) {
+
+    .chall-h1 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .chall-p {
+        font-size: 16px;
+    }
+
+    .card-body-ch-b {
+        padding: 2rem 1.2rem;
+    }
+
+    .card-title-ch-ct {
+        font-size: 18px;
+    }
+
+    .card-text-ch-tx {
+        font-size: 15px;
+    }
+
+    .img-float {
+        right: 20px;
+        width: 80px;
+    }
+
+    .pad-t {
+        padding: 15px 0;
+    }
+}

@@ -1,0 +1,186 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    outline: none;
+    font-size: 100%;
+}
+
+.auto-container {
+    position: static;
+    padding: 0px 15px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.pos-rel {
+    position: relative;
+}
+.pos-abs{
+    position: absolute;
+}
+.pad-b{
+    padding-bottom: 25px;
+}
+
+.bg-cover {
+    background: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.mr-l{
+    margin-left: 30px;
+}
+
+.culture-section{
+    background-color: #151515;
+    padding: 65px 0px;
+    margin-top: 60px;
+}
+
+.cul-h4{
+  padding-bottom: 20px;
+  color: white;
+  font-size: 40px;
+}
+.cul-para{
+   color:  rgb(255, 255, 255);
+   font-size: 20px;
+}
+
+.cul-li-para{
+    color: white;
+    font-size: 20px;
+}
+.cul-li::before{
+    content: " ";
+    display: block;
+    background-color: orangered;
+    border-radius: 2px;
+}
+.cul-text{
+    color:  rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+
+
+
+@media (max-width: 768px) {
+  .culture-section {
+    padding: 45px 15px;
+    text-align: center;
+  }
+
+  .cul-h4 {
+    font-size: 35px;
+    line-height: 1.3;
+  }
+
+  .cul-para,
+  .cul-li-para,
+  .cul-text {
+    font-size: 25px;
+    line-height: 1.6;
+  }
+
+  .cul-img-section {
+    margin-top: 30px;
+    height: auto !important;
+  }
+
+  .cul-img-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .culture-section {
+    padding: 40px 10px;
+  }
+
+  .cul-h4 {
+    font-size: 33px;
+  }
+
+  .cul-para,
+  .cul-li-para,
+  .cul-text {
+    font-size: 22px;
+  }
+
+  .cul-img-section {
+    margin-top: 20px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .culture-section {
+    padding: 35px 8px;
+  }
+
+  .cul-h4 {
+    font-size: 30px;
+  }
+
+  .cul-para,
+  .cul-li-para,
+  .cul-text {
+    font-size: 20px;
+  }
+
+  .cul-li {
+    margin-bottom: 8px;
+  }
+
+  .cul-img-section img {
+    border-radius: 10px;
+  }
+}
+
+
+@media (max-width: 420px) {
+  .culture-section {
+    padding: 30px 5px;
+  }
+
+  .cul-h4 {
+    font-size: 27px;
+  }
+
+  .cul-para,
+  .cul-li-para,
+  .cul-text {
+    font-size: 18px;
+  }
+
+  .cul-img-section {
+    margin-top: 15px;
+  }
+}
+
+
+@media (max-width: 320px) {
+  .culture-section {
+    padding: 25px 5px;
+  }
+
+  .cul-h4 {
+    font-size: 25px;
+  }
+
+  .cul-para,
+  .cul-li-para,
+  .cul-text {
+    font-size: 15px;
+  }
+
+  .cul-img-section img {
+    border-radius: 8px;
+  }
+}

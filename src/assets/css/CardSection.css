@@ -1,0 +1,168 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    outline: none;
+    font-size: 100%;
+}
+
+.auto-container {
+    position: static;
+    padding: 0px 15px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.pos-rel {
+    position: relative;
+}
+.pos-abs{
+    position: absolute;
+}
+.pad-b{
+    padding-bottom: 25px;
+}
+
+.bg-cover {
+    background: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+
+.card-section-c1{
+    padding: 50px;
+}
+.card-content-cc{
+    margin-top: 25px;
+}
+.card-div-cv{
+    border: 1px solid #DDDDDD;
+    padding: 20px;
+    height: 100%;
+    background: linear-gradient(to left,transparent 50%,black 50%);
+    background-size: 200% 100%;
+    background-position: right;
+    transition: background-position 0.6s ease;
+}
+.card-div-cv:hover{
+    background-position: left;
+    color: white;
+}
+.card-icon-ci{
+    font-size: 50px;
+}
+.card-h5-ch{
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.card-para-cp{
+    margin: 0;
+}
+
+
+@media (min-width: 1200px) {
+    .card-section-c1 {
+        padding: 50px;
+    }
+    .card-div-cv {
+        padding: 25px;
+    }
+    .card-icon-ci {
+        font-size: 50px;
+    }
+    .card-h5-ch {
+        font-size: 20px;
+    }
+    .card-content-cc {
+        margin-top: 25px;
+    }
+    .card-para-cp {
+        font-size: 18px;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .card-section-c1 {
+        padding: 50px;
+    }
+    .card-div-cv {
+        padding: 22px;
+    }
+    .card-icon-ci {
+        font-size: 48px;
+    }
+    .card-h5-ch {
+        font-size: 20px;
+    }
+    .card-content-cc {
+        margin-top: 24px;
+    }
+    .card-para-cp {
+        font-size: 17px;
+    }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+    .card-section-c1 {
+        padding: 40px;
+    }
+    .card-div-cv {
+        padding: 20px;
+    }
+    .card-icon-ci {
+        font-size: 45px;
+    }
+    .card-h5-ch {
+        font-size: 19px;
+    }
+    .card-content-cc {
+        margin-top: 22px;
+    }
+    .card-para-cp {
+        font-size: 16px;
+    }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+    .card-section-c1 {
+        padding: 30px;
+    }
+    .card-div-cv {
+        padding: 18px;
+    }
+    .card-icon-ci {
+        font-size: 40px;
+    }
+    .card-h5-ch {
+        font-size: 18px;
+    }
+    .card-content-cc {
+        margin-top: 20px;
+    }
+    .card-para-cp {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 576px) {
+    .card-section-c1 {
+        padding: 20px;
+    }
+    .card-div-cv {
+        padding: 15px;
+    }
+    .card-icon-ci {
+        font-size: 35px;
+    }
+    .card-h5-ch {
+        font-size: 16px;
+    }
+    .card-content-cc {
+        margin-top: 15px;
+    }
+    .card-para-cp {
+        font-size: 14px;
+    }
+}

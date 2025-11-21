@@ -1,0 +1,286 @@
+
+* {
+     margin: 0px;
+     padding: 0px;
+     border: none;
+     outline: none;
+     font-size: 100%;
+ }
+
+.bpm-service {
+     padding: 0px 30px;
+ }
+
+ .pt-90 {
+     padding-top: 90px;
+ }
+
+ .pb-90 {
+     padding-bottom: 90px;
+ }
+
+ .service-text {
+     margin-bottom: 40px;
+ }
+
+ .service-h {
+     margin-top: -5px;
+     margin-bottom: 30px;
+ }
+
+ .service-h3 {
+     font-size: 42px;
+     font-weight: 600;
+ }
+
+ .service-p {
+     font-size: 20px;
+     font-weight: 500;
+ }
+
+ .service-box {
+     border: 1px solid #DDDDDD;
+     height: 100%;
+     padding: 40px 25px 35px 40px;
+     border-radius: 20px;
+     position: relative;
+     overflow: hidden;
+     z-index: 1;
+
+     background: linear-gradient(to bottom, black 50%, transparent 50%);
+     background-size: 100% 200%;
+     background-position: bottom;
+     transition: background-position 0.7s ease;
+ }
+
+ .service-box:hover {
+
+     background-position: top;
+     color: white;
+     border: 1px solid red;
+
+     .p-btn {
+         color: white;
+     }
+
+     .icon {
+         transform: rotateY(360deg);
+     }
+ }
+
+ .service-box * {
+     position: relative;
+     z-index: 1;
+ }
+
+ .service-content {
+     margin-top: 17px;
+ }
+
+ .service-h5 {
+     margin-bottom: 11px;
+     font-weight: 500;
+     font-size: 28px;
+ }
+
+ .service-para {
+     font-weight: 450;
+     font-size: 21px;
+     margin-bottom: 22px;
+ }
+
+ .p-btn {
+     display: inline-flex;
+     gap: 10px;
+     align-items: center;
+     text-align: center;
+     font-size: 18px;
+     font-weight: 500;
+     text-decoration: none;
+     color: #000;
+ }
+
+ .icon {
+     transition: all 900ms ease;
+     font-size: 60px;
+     display: inline-block;
+     color: orangered;
+ }
+
+ .arrow {
+     font-size: 20px;
+ }
+
+ /* ----MEDIA---Query--- */
+@media (max-width: 1200px) {
+  .service-h3 {
+    font-size: 36px;
+  }
+  .service-h5 {
+    font-size: 24px;
+  }
+  .service-para {
+    font-size: 18px;
+  }
+  .icon {
+    font-size: 55px;
+  }
+}
+
+
+@media (min-width: 992px) and (max-width:1200px) {
+  .bpm-service {
+    padding: 0 20px;
+  }
+  .service-h3 {
+    font-size: 30px !important;
+  }
+  .service-p {
+    font-size: 18px !important;
+  }
+  .service-box {
+    padding: 30px 20px;
+  }
+  .service-h5 {
+    font-size: 22px;
+  }
+  .service-para {
+    font-size: 17px;
+  }
+  .icon {
+    font-size: 50px;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width:992px) {
+  .service-h3 {
+    font-size: 28px !important;
+    text-align: center;
+  }
+  .service-p {
+    font-size: 17px !important;
+    text-align: center;
+  }
+  .service-box {
+    padding: 25px 18px;
+  }
+  .service-h5 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .service-para {
+    font-size: 16px;
+    text-align: center;
+  }
+  .p-btn {
+    justify-content: center;
+  }
+  .icon {
+    font-size: 45px;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+
+@media (min-width: 576px) and (max-width:768px) {
+  .bpm-service {
+    padding: 0 15px;
+  }
+  .service-h3 {
+    font-size: 25px !important;
+  }
+  .service-p {
+    font-size: 16px !important;
+  }
+  .service-h5 {
+    font-size: 18px;
+  }
+  .service-para {
+    font-size: 15px;
+  }
+  .icon {
+    font-size: 40px;
+  }
+  .p-btn {
+    font-size: 16px;
+  }
+  .service-box {
+    text-align: center;
+  }
+}
+
+
+@media (min-width: 420px) and (max-width:576px) {
+  .service-h3 {
+    font-size: 22px !important;
+  }
+  .service-p {
+    font-size: 15px !important;
+  }
+  .service-h5 {
+    font-size: 17px;
+  }
+  .service-para {
+    font-size: 14px;
+  }
+  .icon {
+    font-size: 35px;
+  }
+  .p-btn {
+    font-size: 15px;
+  }
+}
+
+
+@media (min-width: 380px) and (max-width: 420px) {
+  .service-h3 {
+    font-size: 21px !important;
+  }
+  .service-p {
+    font-size: 14px !important;
+  }
+  .service-h5 {
+    font-size: 16px;
+  }
+  .service-para {
+    font-size: 13px;
+  }
+  .icon {
+    font-size: 32px;
+  }
+  .p-btn {
+    font-size: 14px;
+  }
+  .service-box {
+    padding: 22px 15px;
+    text-align: center;
+  }
+}
+
+
+@media (min-width: 320px) and (max-width: 380px) {
+  .service-h3 {
+    font-size: 19px !important;
+  }
+  .service-p {
+    font-size: 13px !important;
+  }
+  .service-h5 {
+    font-size: 15px;
+  }
+  .service-para {
+    font-size: 12px;
+  }
+  .icon {
+    font-size: 30px;
+  }
+  .p-btn {
+    font-size: 13px;
+  }
+  .service-box {
+    padding: 20px 12px;
+    text-align: center;
+  }
+}

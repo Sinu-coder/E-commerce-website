@@ -1,0 +1,117 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    outline: none;
+    font-size: 100%;
+}
+
+.auto-container {
+    position: static;
+    padding: 0px 15px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.pos-rel {
+    position: relative;
+}
+.pos-abs{
+    position: absolute;
+}
+.pad-b{
+    padding-bottom: 25px;
+}
+
+.bg-cover {
+    background: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.operational-section{
+    padding: 80px 0px;
+}
+.opp-h2{
+    font-size: 20px;
+    color: orangered;
+}
+.opp-big-head{
+    padding-top: 10px;
+}
+.opp-h3{
+    font-size: 50px;
+}
+.opp-i-2{
+    left: 366px;
+    animation: move2 1s infinite alternate ease-in-out;
+}
+.opp-big-head{
+    padding-bottom: 20px;
+}
+.opp-para-sec{
+ padding: 0px 110px;
+}
+.opp-para{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+}
+
+
+
+
+@media (max-width: 1200px) {
+    .opp-para-sec { 
+        padding: 0 80px; 
+    }
+    .opp-h3 {
+         font-size: 42px;
+         }
+    .opp-para {
+         font-size: 18px;
+     }
+}
+
+
+@media (max-width: 992px) {
+    .opp-para-sec {
+         padding: 0 50px; 
+        }
+    .opp-h3 {
+         font-size: 36px; 
+        }
+    .opp-para { 
+        font-size: 16px;
+     }
+}
+
+
+@media (max-width: 768px) {
+    .operational-section { 
+        padding: 60px 0;
+     }
+    .opp-para-sec {
+         padding: 0 20px;
+         }
+    .opp-h3 {
+         font-size: 28px; 
+        }
+    .opp-para {
+         font-size: 14px; 
+        }
+}
+
+
+@media (max-width: 576px) {
+    .operational-section {
+         padding: 40px 0;
+         }
+    .opp-h3 {
+         font-size: 22px;
+         }
+    .opp-para { 
+        font-size: 12px;
+     }
+}

@@ -1,0 +1,202 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    outline: none;
+    font-size: 100%;
+}
+
+.auto-container {
+    position: static;
+    padding: 0px 15px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.pos-rel {
+    position: relative;
+}
+.pos-abs{
+    position: absolute;
+}
+.pad-b{
+    padding-bottom: 25px;
+}
+.pad-l-r{
+    padding: 0px 45px;
+}
+.bg-black{
+    background-color: #151515;
+    border: none;
+    padding: 15px 0px;
+}
+
+.bg-cover {
+    background: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.mr-l{
+    margin-left: 30px;
+}
+
+.market-businesses-section{
+    padding: 50px 0px;
+    margin: 0px 10px 0px 10px;
+}
+.market-img-sec{
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.1019607843);
+    width: fit-content;
+    height: auto;
+}
+.market-img-sec:hover{
+    filter: grayscale(100%);
+}
+.market-img-sec img{
+    border-radius: 20px;
+    height: 360px;
+}
+.market-content{
+
+}
+.mar-head{
+   margin-bottom: 20px;
+}
+.mar-h2{
+    font-size: 40px;
+    padding-bottom: 8px;
+
+}
+.mar-p{
+    font-size: 20px;
+}
+.mar-para-content{
+
+}
+.mar-h5{
+    padding-bottom: 4px;
+    font-weight: 600;
+}
+.mar-para{
+    font-size: 18px;
+    font-weight: 400;
+}
+.mar-ul li{
+    position: relative;
+    padding-left: 24px;
+    margin-bottom: 10px;  
+}
+.mat-ul li::before{
+    content: "";
+    position: absolute;
+    left: 4px;
+    top: 10px;
+    width: 10px;
+    height: 10px;
+    background: #FF4500;
+    border-radius: 100%;
+}
+
+
+
+@media (min-width: 1200px) {
+    .market-img-sec img {
+        height: 400px;
+    }
+    .mar-h2 {
+        font-size: 45px;
+    }
+    .mar-p {
+        font-size: 22px;
+    }
+    .mar-para {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .market-img-sec img {
+        height: 350px;
+    }
+    .mar-h2 {
+        font-size: 38px;
+    }
+    .mar-p {
+        font-size: 18px;
+    }
+    .mar-para {
+        font-size: 17px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .market-img-sec img {
+        height: 320px;
+    }
+    
+    .mar-h2 {
+        font-size: 32px;
+    }
+    .mar-p {
+        font-size: 16px;
+    }
+    .mar-para {
+        font-size: 15px;
+    }
+    .pad-l-r {
+        padding: 0 25px;
+    }
+}
+
+
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .market-img-sec img {
+        height: 280px;
+    }
+    .mar-h2 {
+        font-size: 28px;
+    }
+    .mar-p {
+        font-size: 15px;
+    }
+    .mar-para {
+        font-size: 14px;
+    }
+    .pad-l-r {
+        padding: 0 15px;
+    }
+    .market-businesses-section {
+        padding: 30px 0;
+    }
+}
+
+
+
+@media (max-width: 576px) {
+    .market-img-sec img {
+        height: 220px;
+    }
+    .mar-h2 {
+        font-size: 24px;
+    }
+    .mar-p {
+        font-size: 14px;
+    }
+    .mar-para {
+        font-size: 13px;
+    }
+    .pad-l-r {
+        padding: 0 10px;
+    }
+    .market-businesses-section {
+        padding: 20px 0;
+        margin: 0 5px;
+    }
+    .mar-ul li {
+        padding-left: 18px;
+    }
+}

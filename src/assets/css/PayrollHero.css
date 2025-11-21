@@ -1,0 +1,199 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    outline: none;
+    font-size: 100%;
+}
+
+.auto-container {
+    position: static;
+    padding: 0px 15px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.pos-rel {
+    position: relative;
+}
+.pos-abs{
+    position: absolute;
+}
+.pad-b{
+    /* padding-bottom: 25px; */
+}
+.pad-l-r{
+    padding: 0px 45px;
+}
+.pad-t{
+    padding: 20px 0px;
+}
+.bg-black{
+    background-color: #151515;
+    border: none;
+    padding: 15px 0px;
+}
+
+.bg-cover {
+    background: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.mr-l{
+    margin-left: 30px;
+}
+
+
+
+
+.payroll-sec {
+    background-image: url('/assets/images/payroll.home.png');
+    overflow: hidden;
+    padding: 150px 50px 50px !important;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.payroll-sec::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+     height: 100%;
+     width: 100%;
+     background: rgba(0, 0, 0, 0.8);
+     z-index: 0;
+}
+
+.payroll-content{
+    padding-top: 87px;
+    color: white;
+}
+.payroll-head{
+    padding-bottom: 10px;
+}
+.payroll-h3{
+    font-size: 40px;
+}
+.pay-ul{
+    padding: 20px;
+}
+.pay-li{
+
+}
+.pay-para{
+    font-size: 20px;
+}
+.input-content{
+    padding: 30px;
+    background-color: white;
+    height: 600px;
+    width: 550px;
+}
+.form-control{
+        padding: 12px 0px;
+    }
+    .form-select{
+        /* padding: 18px 0px; */
+    }
+    .pad-b{
+        /* padding-bottom: 25px; */
+    }
+    .pad-top{
+        /* padding: 10px 0px; */
+    }
+    .btn-style-two{
+    background-color: #000;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+    border-radius: 100px;
+    padding: 10px 30px;
+    text-decoration: none;
+    transition: background-color 0.6s ease;
+    }
+    .btn-style-two:hover{
+        background-color: orangered;
+    }
+
+
+
+    @media (max-width: 1200px) {
+    .payroll-sec {
+        padding: 120px 40px 40px !important;
+    }
+    .payroll-h3 {
+        font-size: 35px;
+    }
+    .pay-para {
+        font-size: 18px;
+    }
+    .input-content {
+        width: 500px;
+        height: 550px;
+        padding: 25px;
+    }
+}
+
+
+@media (max-width: 992px) {
+    .payroll-sec {
+        padding: 100px 30px 30px !important;
+    }
+    .payroll-h3 {
+        font-size: 32px;
+    }
+    .pay-para {
+        font-size: 17px;
+    }
+    .input-content {
+        width: 450px;
+        height: auto;
+        padding: 20px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .payroll-sec {
+        padding: 80px 20px 20px !important;
+    }
+    .payroll-h3 {
+        font-size: 28px;
+    }
+    .pay-para {
+        font-size: 16px;
+    }
+    .input-content {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .payroll-sec {
+        padding: 60px 15px 15px !important;
+    }
+    .payroll-h3 {
+        font-size: 24px;
+    }
+    .pay-para {
+        font-size: 14px;
+    }
+    .input-content {
+        width: 100%;
+        height: auto;
+        padding: 15px;
+    }
+    .form-control {
+        padding: 10px 5px;
+    }
+    .btn-style-two {
+        padding: 8px 20px;
+        font-size: 14px;
+    }
+}
