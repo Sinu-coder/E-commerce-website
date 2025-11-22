@@ -96,8 +96,8 @@ function Navbar() {
             <Link to="/contact" className="btn-style-one text-white text-decoration-none">Contact Us</Link>
           </form>
           <button className="btn btn-warning ms-3" onClick={toggleTheme}>
-  {theme === "light" ? "Dark Mode" : "Light Mode"}
-</button>
+            {theme === "light" ? "Dark Mode" : "Light Mode"}
+            </button>
 
           
         </div>
