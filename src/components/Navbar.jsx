@@ -35,18 +35,9 @@ function Navbar() {
         </Link>
 
         
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="offcanvas"
-          data-bs-target="#offcanvasNavbar"
-          aria-controls="offcanvasNavbar"
-          aria-label="Toggle navigation"
-        >
+        <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
-
-        
         <div className="collapse navbar-collapse d-none d-lg-flex" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item"><Link className="nav-link" to="/">About Eximius</Link></li>
@@ -55,19 +46,9 @@ function Navbar() {
             <li className="nav-item"><Link className="nav-link" to="/blog">Blog</Link></li>
 
             
-            <li
-  className="nav-item dropdown"
-  onMouseEnter={() => setDropdownOpen(true)}
-  onMouseLeave={() => setDropdownOpen(false)}
->
-  <Link
-  className="nav-link dropdown-toggle"
-  to="/ourservice"
-  id="navbarDropdown"
-  role="button"
-  aria-expanded={dropdownOpen ? "true" : "false"}
->
-  Our Service
+            <li className="nav-item dropdown" onMouseEnter={() => setDropdownOpen(true)} onMouseLeave={() => setDropdownOpen(false)}>
+  <Link className="nav-link dropdown-toggle" to="/ourservice" id="navbarDropdown" role="button" aria-expanded={dropdownOpen ? "true" : "false"}>
+   Our Service
 </Link>
 
   <ul
@@ -108,41 +89,13 @@ function Navbar() {
     </div>
   </ul>
 </li>
-
-
-
-
-
-
-
-            
-          </ul>
+   </ul>
 
           
           <form className="d-flex ms-3">
             <Link to="/contact" className="btn-style-one text-white text-decoration-none">Contact Us</Link>
           </form>
-          {/* Login / Logout UI */}
-          {/* <div className="ms-4 d-flex align-items-center">
-            <span className="me-3 fw-bold text-primary">
-              Welcome, {user.loggedIn ? user.name : "Guest"}
-            </span>
-
-            {!user.loggedIn ? (
-              <button className="btn btn-sm btn-success" onClick={handleLogin}>
-                Login
-              </button>
-            ) : (
-              <button className="btn btn-sm btn-danger" onClick={handleLogout}>
-                Logout
-              </button>
-            )}
-          </div> */}
-
-          <button 
-  className="btn btn-warning ms-3" 
-  onClick={toggleTheme}
->
+          <button className="btn btn-warning ms-3" onClick={toggleTheme}>
   {theme === "light" ? "Dark Mode" : "Light Mode"}
 </button>
 
