@@ -160,6 +160,12 @@ ul.dropdown-menu.show.bigmenu {
      padding: 15px 20px;
 }
 }
+@media (max-width:768px) {
+    .dropdown-grid{
+    grid-template-columns: 1fr;
+    
+}
+}
 @media (min-width: 420px) and (max-width: 480px) {
   .img-fl{
     width: 210px;
