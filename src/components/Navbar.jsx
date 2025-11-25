@@ -4,6 +4,7 @@ import "../assets/css/Navbar.css";
 import logo from "../assets/images/next.png";
 import { UserContext } from "../context/UserContext";
 import { ThemeContext } from "../context/ThemeContext";
+import { FaMoon, FaSun } from "react-icons/fa";
 
 
 function Navbar() {
@@ -49,6 +50,7 @@ function Navbar() {
 
     return null;
   };
+  
 
   const closeOffcanvas = () => {
     const inst = getOffcanvasInstance();
@@ -117,7 +119,7 @@ function Navbar() {
         </button>
 
         
-        <div className="collapse navbar-collapse d-none d-lg-flex" id="navbarSupportedContent">
+        <div className="collapse navbar-collapse d-none d-lg-flex  top-pad" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item"><Link className="nav-link" to="/">About Eximius</Link></li>
             <li className="nav-item"><Link className="nav-link" to="/industry">Industry</Link></li>
@@ -153,9 +155,17 @@ function Navbar() {
             <Link to="/contact" className="btn-style-one text-white text-decoration-none">Contact Us</Link>
           </form>
 
-          <button className="btn btn-warning ms-3" onClick={toggleTheme}>
-            {theme === "light" ? "Dark Mode" : "Light Mode"}
-          </button>
+          <div className="theme-toggle ms-3">
+  <input
+    type="checkbox"
+    id="toggle"
+    checked={theme === "dark"}
+    onChange={toggleTheme}
+  />
+  <label htmlFor="toggle"></label>
+</div>
+
+
         </div>
 
         
@@ -216,6 +226,7 @@ function Navbar() {
           </div>
         </div>
       </div>
+      
     </nav>
   );
 }

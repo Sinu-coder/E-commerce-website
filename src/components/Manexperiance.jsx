@@ -5,7 +5,7 @@ import "../assets/css/Manexperiance.css"
 function Manexperiance() {
   return (
     <section className='difference bg-light fix section-padding'>
-    <Container className='con'>
+    <div className='auto-container'>
         <Row className='g-4 align-items-center'>
             <Col lg={6}>
                 <div className='pos-rel'>
@@ -57,7 +57,7 @@ function Manexperiance() {
                             <p className="about-text">With solutions designed to scale as you grow, Eximius Next becomes a
                                 true extension of your team—managing the journey to operational excellence.</p>
             </div>
-              <Button type="button" className="btn-style-one btn-lg">Large button</Button>
+              <button type="button" className="btn-style-one btn-lg">Know More</button>
         </Col>
         </Row>
         <Row className="justify-content-center align-items-center g-4 mt-5">
@@ -103,7 +103,7 @@ function Manexperiance() {
               </div>
           </Col>
         </Row>
-    </Container>
+    </div>
     </section>
   )
 }

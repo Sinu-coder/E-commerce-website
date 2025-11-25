@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "../assets/css/Strategy.css"; 
 import mid from "../assets/images/mid.png"
-import mid2 from "../assets/images/123.png"
+import mid2 from "../assets/images/Smile-img1.png"
 import mid3 from "../assets/images/12.png"
 
 function Strategy() {
@@ -96,7 +96,7 @@ function Strategy() {
                       src={mid2}
                       className="img-fluid img-1"
                       alt="123"
-                      style={{ height: "290px" }}
+                      style={{ height: "283px" }}
                     />
                   </div>
                 </Col>

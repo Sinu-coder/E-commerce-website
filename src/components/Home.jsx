@@ -32,7 +32,7 @@ const handleLearnMore = () => {
               allowing your leadership to focus on innovation and growth.
             </p>
             <button type="button" className="btn-style-one btn-lg" onClick={handleLearnMore}  >
-              Learn More
+              Learn More 
             </button>
              </div>
           </div>
