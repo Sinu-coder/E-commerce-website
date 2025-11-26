@@ -302,6 +302,7 @@ flex-direction: column;
     .content-para {
         font-size: 20px;
         line-height: 30px;
+        padding-top: 10px;
     }
 
     .content-h4 {
@@ -317,6 +318,7 @@ flex-direction: column;
     .content-para {
         font-size: 18px;
         line-height: 28px;
+        padding-top: 10px;
     }
 
     .content-h4 {
@@ -339,6 +341,7 @@ flex-direction: column;
     .content-para {
         font-size: 16px;
         line-height: 25px;
+        padding-top: 10px;
     }
 
     .content-h4 {
