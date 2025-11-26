@@ -7,7 +7,7 @@ function PayrollOverview() {
   return (
     <section className="market-businesses-section">
       <div className="auto-container">
-        <Row className="g-4" style={{ paddingBottom: "60px" }}>
+        <Row className="align-items-center g-4" style={{ paddingBottom: "60px" }}>
           <Col lg={6}>
             <div className="market-img-sec">
               <img

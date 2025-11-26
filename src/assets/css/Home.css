@@ -20,6 +20,9 @@
 .carousel-img-size {
   height: 100vh;
 }
+.home-img{
+  height: 400px !important;
+}
 
 
 
@@ -141,7 +144,7 @@
 
 @media (min-width:420px) and (max-width:480px){
     .carousel-img-size {
-    height: 25vh;
+    height: 30vh;
   }
   .carousel-h {
     top: 20% !important;
