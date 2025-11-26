@@ -16,7 +16,7 @@ function CareerWorkWith() {
           the future of business processes while building a career defined by leadership, innovation, and impact.
         </div>
         <button className=" btn-style-one btn-style" type="submit">
-          Apply Now
+         <div className="right-pad"> Apply Now</div>
           <i className="bi bi-arrow-up-right btn-i"></i>
         </button>
       </div>
