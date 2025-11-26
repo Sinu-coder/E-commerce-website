@@ -17,7 +17,7 @@ const handleLearnMore = () => {
     <div id="carouselExampleRide" className="carousel slide pos-rel" data-bs-ride="carousel">
       <div className="carousel-inner carousel-img-size">
         <div className="carousel-item active" data-bs-interval="10000">
-          <img src={home1} className="d-block w-100 home-img img-fluid" alt="Slide 1" />
+          <img src={home1} className="d-block w-100  img-fluid" alt="Slide 1" />
           <div className="carousel-h d-md-block ">
             <h5 className="banner-title">
               <strong>Intelligent Operations,</strong>
@@ -39,7 +39,7 @@ const handleLearnMore = () => {
         </div>
 
         <div className="carousel-item" data-bs-interval="2000">
-          <img src={home2} className="d-block w-100 home-img img-fluid" alt="Slide 2" />
+          <img src={home2} className="d-block w-100  img-fluid" alt="Slide 2" />
           <div className="carousel-h d-md-block">
             <h5 className="banner-title">
               <strong>Next Gen Processes,</strong>
