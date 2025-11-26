@@ -57,7 +57,7 @@ function Manexperiance() {
                             <p className="about-text">With solutions designed to scale as you grow, Eximius Next becomes a
                                 true extension of your team—managing the journey to operational excellence.</p>
             </div>
-              <button type="button" className="btn-style-one btn-lg">Know More</button>
+              <button type="button" className="btn-style-one btn-lg md-btn">Know More</button>
         </Col>
         </Row>
         <Row className="justify-content-center align-items-center g-4 mt-5">

@@ -95,10 +95,7 @@ function Navbar() {
   );
 
   return (
-    <nav
-      className={`navbar navbar-expand-lg navbar-light fixed-top navbar-scroll ${isScrolled ? "scrolled" : ""}`}
-      id="nav-scroll"
-    >
+    <nav className={`navbar navbar-expand-lg navbar-light fixed-top navbar-scroll ${isScrolled ? "scrolled" : ""}`}>
       <div className="container-fluid">
 
        
@@ -142,10 +139,7 @@ function Navbar() {
                 Our Service
               </Link>
 
-              <ul
-                className={`dropdown-menu bigmenu ${dropdownOpen ? "show" : ""}`}
-                aria-labelledby="navbarDropdown"
-              >
+              <ul className={`dropdown-menu bigmenu ${dropdownOpen ? "show" : ""}`}>
                 {renderServiceLinksDesktop()}
               </ul>
             </li>
@@ -208,7 +202,7 @@ function Navbar() {
                 </button>
 
                 
-                <ul className={`dropdown-menu show position-static w-100 border-0 p-0 ${mobileServicesOpen ? "" : "d-none"}`}>
+                 <ul className={`dropdown-menu show position-static w-100 border-0 p-0 ${mobileServicesOpen ? "" : "d-none"}`}>
                   {renderServiceButtonsMobile()}
                 </ul>
               </li>

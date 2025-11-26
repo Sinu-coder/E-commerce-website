@@ -278,6 +278,10 @@
     .about-list-type ul li {
         font-size: 20px;
     }
+    .md-btn{
+        padding: 20px 50px !important;
+        font-size: 20px !important;
+    }
 }
 @media (min-width: 480px) and (max-width:576px){
     .diff-img {
@@ -365,6 +369,10 @@
   .line-p {
     font-size: 16px;
   }
+  .md-btn{
+        padding: 15px 30px !important;
+        font-size: 20px !important;
+    }
 }
 @media (min-width: 380px) and (max-width: 420px) {
     .section-padding {
@@ -408,6 +416,10 @@
   .line-p {
     font-size: 16px;
   }
+  .md-btn{
+        padding: 10px 20px !important;
+        font-size: 18px !important;
+    }
 }
 @media (min-width: 320px) and (max-width: 380px) {
     .section-padding {
@@ -457,6 +469,11 @@
   .line-p {
     font-size: 15px;
   }
+  .md-btn{
+        padding: 10px 20px !important;
+        font-size: 18px !important;
+    }
+   
 }
 
 
