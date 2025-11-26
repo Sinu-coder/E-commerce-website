@@ -103,7 +103,7 @@ function Navbar() {
 
        
         <Link className="navbar-brand" to="/">
-          <img src={logo} className="img-fluid img-fl" alt="logo" width="250" />
+          <img src={logo} className=" img-fl" alt="logo" width="250" />
         </Link>
 
        
