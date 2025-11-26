@@ -185,7 +185,7 @@ ul.dropdown-menu.show.bigmenu {
 }
 @media (min-width: 420px) and (max-width: 480px) {
   .img-fl{
-    width: 200px !important;
+    width: 150px !important;
   }
 }
 @media (min-width:320px) and (max-width:380px){
