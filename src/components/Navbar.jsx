@@ -27,7 +27,7 @@ function Navbar() {
 
   // One source of truth for service items
   const serviceItems = [
-    { to: "/ourservice/finance-accounting", icon: "bi bi-bar-chart-line", label: "Finance & Accounting Service" },
+    { to: "/ourservice/finance-accounting", icon: "bi bi-bar-chart-line", label: "Finance & Accounting Service", },
     { to: "/ourservice/customer-experience", icon: "bi bi-gear", label: "Customer Experience" },
     { to: "#", icon: "bi bi-currency-dollar", label: "Supply Chain Management" },
     { to: "#", icon: "bi bi-gear", label: "Human Resources Outsourcing" },
@@ -85,6 +85,7 @@ function Navbar() {
           <button
             type="button"
             className="dropdown-item text-start"
+            data-bs-dismiss="offcanvas"
             onClick={go(item.to)}
           >
             <i className={item.icon}></i>{item.label}
@@ -177,16 +178,16 @@ function Navbar() {
           <div className="offcanvas-body">
             <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li className="nav-item">
-                <Link className="nav-link" to="/" onClick={go("/")}>About Eximius</Link>
+                <Link className="nav-link" to="/" data-bs-dismiss="offcanvas" onClick={go("/")}>About Eximius</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/industry" onClick={go("/industry")}>Industry</Link>
+                <Link className="nav-link" to="/industry" data-bs-dismiss="offcanvas" onClick={go("/industry")}>Industry</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/career" onClick={go("/career")}>Career</Link>
+                <Link className="nav-link" to="/career" data-bs-dismiss="offcanvas" onClick={go("/career")}>Career</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/blog" onClick={go("/blog")}>Blog</Link>
+                <Link className="nav-link" to="/blog" data-bs-dismiss="offcanvas" onClick={go("/blog")}>Blog</Link>
               </li>
 
               
@@ -212,6 +213,7 @@ function Navbar() {
               <Link
                 to="/contact"
                 className="btn-style-one text-white text-decoration-none w-100 text-center"
+                data-bs-dismiss="offcanvas"
                 onClick={go("/contact")}
               >
                 Contact Us
