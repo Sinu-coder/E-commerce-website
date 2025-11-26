@@ -130,7 +130,7 @@
 
 @media (min-width: 992px) and (max-width:1200px) {
   .bpm-service {
-    padding: 0 20px;
+    padding: 45px 20px;
   }
   .service-h3 {
     font-size: 30px !important;
@@ -155,7 +155,7 @@
 
 @media (min-width: 768px) and (max-width:992px) {
   .service-h3 {
-    font-size: 28px !important;
+    font-size: 35px !important;
     text-align: center;
   }
   .service-p {
@@ -186,16 +186,16 @@
 
 @media (min-width: 576px) and (max-width:768px) {
   .bpm-service {
-    padding: 0 15px;
+    padding: 40px 15px;
   }
   .service-h3 {
-    font-size: 25px !important;
+    font-size: 30px !important;
   }
   .service-p {
-    font-size: 16px !important;
+    font-size: 20px !important;
   }
   .service-h5 {
-    font-size: 18px;
+    font-size: 23px;
   }
   .service-para {
     font-size: 15px;
@@ -212,15 +212,15 @@
 }
 
 
-@media (min-width: 420px) and (max-width:576px) {
+@media (min-width: 480px) and (max-width:576px) {
   .service-h3 {
-    font-size: 22px !important;
+    font-size: 25px !important;
   }
   .service-p {
-    font-size: 15px !important;
+    font-size: 20px !important;
   }
   .service-h5 {
-    font-size: 17px;
+    font-size: 20px;
   }
   .service-para {
     font-size: 14px;
@@ -232,7 +232,11 @@
     font-size: 15px;
   }
 }
-
+@media (min-width: 420px) and (max-width:480px) {
+  .bpm-service {
+    padding: 40px 15px;
+  }
+}
 
 @media (min-width: 380px) and (max-width: 420px) {
   .service-h3 {
@@ -261,6 +265,9 @@
 
 
 @media (min-width: 320px) and (max-width: 380px) {
+  .bpm-service {
+    padding: 40px 15px;
+  }
   .service-h3 {
     font-size: 19px !important;
   }

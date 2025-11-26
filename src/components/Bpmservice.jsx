@@ -57,7 +57,7 @@ const services =[{
 
 
   return (
-    <section className="bpm-service pb-90 pt-90">
+    <section className="bpm-service pb-90 pt-90  media-pad">
                    <div className='auto-container'>
                     <div className="service-text">
           <div className="service-h">

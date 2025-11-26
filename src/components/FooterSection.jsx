@@ -80,7 +80,7 @@ function FooterSection() {
                       8628
                     </a>
                   </li>
-                  <li className="pb-4 d-flex align-items-center">
+                  <li className="pb-4  align-items-center">
                     <i className="bi bi-envelope social-icon"></i>
                     <span className="message-icon">contact@eximiusnext.com</span>
                   </li>
@@ -118,7 +118,7 @@ function FooterSection() {
                 <div className="loc-div">
                   <div className="loc-box">
                     <h3 className="loc-h3">India Address</h3>
-                    <div className="loc-about d-flex align-items-center mt-2" style={{ gap: "10px" }}>
+                    <div className="loc-about  align-items-center mt-2" style={{ gap: "10px" }}>
                       <i className="bi bi-geo-alt"></i>
                       <p className="loc-para mb-0">
                         Punjab: 616 – Industrial area B, Miller Ganj, Ludhiana, Punjab, India, 141003

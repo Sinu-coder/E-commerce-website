@@ -152,8 +152,8 @@
  /* ----MEDIA-QUERY------ */
  @media (max-width: 1399.98px) {
     .section-padding {
-        padding-left: 30px;
-        padding-right: 30px;
+        /* padding-left: 30px;
+        padding-right: 30px; */
     }
 }
 
@@ -181,6 +181,9 @@
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
+    .section-padding {
+        padding: 40px;
+    }
     .diff-img {
         max-width: 450px;
         max-height: 550px;
@@ -209,6 +212,9 @@
     }
 }
 @media (min-width: 768px) and (max-width: 992px) {
+    .section-padding {
+        padding: 25px 20px;
+    }
     .diff-img {
         max-width: 90%;
         max-height: auto;
@@ -218,11 +224,11 @@
     top: 80%;
     }
     .diff-h2 {
-        font-size: 2.3rem;
+        font-size: 2.5rem;
         font-weight: 600;
     }
     .diff-h{
-        margin-top: 5px;
+        margin-top: 20px;
     }
 
     .about-text {
@@ -248,12 +254,14 @@
     }
 
     .diff-h2 {
-        font-size: 2.1rem;
+        font-size: 2.7rem;
         font-weight: 500;
     }
-
+   .diff-h5{
+    font-size: 1.5rem;
+   }
     .about-text {
-        font-size: 1.1rem;
+        font-size: 1.8rem;
     }
 
     .line-h2 {
@@ -265,7 +273,10 @@
     }
 
     .about-list-type {
-        grid-template-columns: (2,1fr);
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .about-list-type ul li {
+        font-size: 20px;
     }
 }
 @media (min-width: 480px) and (max-width:576px){
@@ -285,7 +296,7 @@
     }
 
     .about-text {
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
 
     .about-list-type {
@@ -293,6 +304,9 @@
         gap: 0.5rem;
     }
 
+    .line {
+        padding-left: 20px;
+    }
     .line-h2 {
         font-size: 3rem !important;
     }
@@ -307,6 +321,9 @@
     }
 }
 @media (min-width: 420px) and (max-width: 480px) {
+    .section-padding {
+        padding: 40px 20px;
+    }
     .about-counter2::after{
         width: 119px;
         height: 118px;
@@ -350,6 +367,9 @@
   }
 }
 @media (min-width: 380px) and (max-width: 420px) {
+    .section-padding {
+        padding: 35px 10px;
+    }
     .about-counter2::after{
         width: 119px;
         height: 118px;
@@ -390,6 +410,9 @@
   }
 }
 @media (min-width: 320px) and (max-width: 380px) {
+    .section-padding {
+        padding: 0px 10px;
+    }
     .about-counter2::after{
         width: 119px;
         height: 118px;
