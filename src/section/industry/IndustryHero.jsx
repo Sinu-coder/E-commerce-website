@@ -14,9 +14,9 @@ function IndustryHero() {
               <a href="#">HOME</a>
             </p>
             <i className="bi bi-chevron-right"></i>
-            <p>Industrice</p>
+            <p>Industries</p>
           </div>
-          <h5 className="home-h5">Industrice</h5>
+          <h5 className="home-h5">Industries</h5>
         </div>
       </div>
     </section>

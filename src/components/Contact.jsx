@@ -13,6 +13,8 @@ useEffect(() => {
 }, []);
 
 
+
+
   return (
     <section className="contact bg-cover" style={{backgroundImage: `url(${contact1});`}}>
         <div className="auto-container">

@@ -172,6 +172,9 @@ transition: all 0.3s ease;
         padding: 40px 10px;
         margin: 0 20px 80px 20px;
     }
+    .div-col{
+    flex: none ;
+}
     .icn-div {
         flex-direction: row; 
         align-items: center;

@@ -27,7 +27,7 @@ function GrowthLeader() {
         </div>
 
         <Row className="g-4 pad-t">
-          <Col>
+          <Col xl={4} lg={4} md={6} sm={6}>
             <div className="card-section">
               <div className="card-head">
                 <h5 className="card-h5">Employee Base</h5>
@@ -40,7 +40,7 @@ function GrowthLeader() {
             </div>
           </Col>
 
-          <Col>
+         <Col xl={4} lg={4} md={6} sm={6}>
             <div className="card-section">
               <div className="card-head">
                 <h5 className="card-h5">Revenue Profile</h5>
@@ -54,7 +54,7 @@ function GrowthLeader() {
             </div>
           </Col>
 
-          <Col>
+         <Col xl={4} lg={4} md={6} sm={6}>
             <div className="card-section">
               <div className="card-head">
                 <h5 className="card-h5">Operational Strain</h5>
@@ -78,7 +78,7 @@ function GrowthLeader() {
             <Col>
               <div className="icn-div">
                 <div className="icn-img">
-                  <img src={manufactureIcon} alt="Manufacturing" className="img-fluid" style={{ height: "30px" }} />
+                  <img src={manufactureIcon} alt="Manufacturing"  style={{ height: "30px" }} />
                 </div>
                 <p className="icn-p">Manufacturing</p>
               </div>
@@ -87,7 +87,7 @@ function GrowthLeader() {
             <Col>
               <div className="icn-div">
                 <div className="icn-img">
-                  <img src={engineeringIcon} alt="Engineering" className="img-fluid" style={{ height: "30px" }} />
+                  <img src={engineeringIcon} alt="Engineering"  style={{ height: "30px" }} />
                 </div>
                 <p className="icn-p">Engineering</p>
               </div>
@@ -96,7 +96,7 @@ function GrowthLeader() {
             <Col>
               <div className="icn-div">
                 <div className="icn-img">
-                  <img src={shoppingCartIcon} alt="Retail" className="img-fluid" style={{ height: "30px" }} />
+                  <img src={shoppingCartIcon} alt="Retail"  style={{ height: "30px" }} />
                 </div>
                 <p className="icn-p">Retail</p>
               </div>
@@ -105,7 +105,7 @@ function GrowthLeader() {
             <Col>
               <div className="icn-div">
                 <div className="icn-img">
-                  <img src={logisticIcon} alt="Logistic" className="img-fluid" style={{ height: "30px" }} />
+                  <img src={logisticIcon} alt="Logistic"  style={{ height: "30px" }} />
                 </div>
                 <p className="icn-p">Logistic</p>
               </div>
@@ -114,7 +114,7 @@ function GrowthLeader() {
             <Col>
               <div className="icn-div">
                 <div className="icn-img">
-                  <img src={manufactureIcon} alt="Manufacturing" className="img-fluid" style={{ height: "30px" }} />
+                  <img src={manufactureIcon} alt="Manufacturing"  style={{ height: "30px" }} />
                 </div>
                 <p className="icn-p">Manufacturing</p>
               </div>
@@ -123,7 +123,7 @@ function GrowthLeader() {
             <Col>
               <div className="icn-div">
                 <div className="icn-img">
-                  <img src={constructionIcon} alt="Construction" className="img-fluid" style={{ height: "30px" }} />
+                  <img src={constructionIcon} alt="Construction"  style={{ height: "30px" }} />
                 </div>
                 <p className="icn-p">Construction</p>
               </div>
@@ -134,7 +134,7 @@ function GrowthLeader() {
             <Col>
               <div className="icn-div">
                 <div className="icn-img">
-                  <img src={oilRigIcon} alt="Oil & Gas" className="img-fluid" style={{ height: "30px" }} />
+                  <img src={oilRigIcon} alt="Oil & Gas"  style={{ height: "30px" }} />
                 </div>
                 <p className="icn-p">Oil & Gas</p>
               </div>
@@ -143,7 +143,7 @@ function GrowthLeader() {
             <Col>
               <div className="icn-div">
                 <div className="icn-img">
-                  <img src={healthcareIcon} alt="Medical & Health" className="img-fluid" style={{ height: "30px" }} />
+                  <img src={healthcareIcon} alt="Medical & Health"  style={{ height: "30px" }} />
                 </div>
                 <p className="icn-p">Medical & Health</p>
               </div>
@@ -152,7 +152,7 @@ function GrowthLeader() {
             <Col>
               <div className="icn-div">
                 <div className="icn-img">
-                  <img src={serviceIcon} alt="IT & Service" className="img-fluid" style={{ height: "30px" }} />
+                  <img src={serviceIcon} alt="IT & Service"  style={{ height: "30px" }} />
                 </div>
                 <p className="icn-p">IT & Service</p>
               </div>
@@ -161,7 +161,7 @@ function GrowthLeader() {
             <Col>
               <div className="icn-div">
                 <div className="icn-img">
-                  <img src={professionalIcon} alt="Professional Services" className="img-fluid" style={{ height: "30px" }} />
+                  <img src={professionalIcon} alt="Professional Services"  style={{ height: "30px" }} />
                 </div>
                 <p className="icn-p">Professional Services</p>
               </div>

@@ -17,7 +17,7 @@ function CareerPlayGround() {
             </div>
           </Col>
 
-          <Col xs={12} md={6} lg={6} xl={6} className=".width-work-play">
+          <Col xs={12} md={6} lg={6} xl={6} className="width-work-play">
             <div className="play-content-section">
               <div className="play-content">
                 <div className="play-title">
