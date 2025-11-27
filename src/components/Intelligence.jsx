@@ -3,7 +3,12 @@ import "../assets/css/Intelligent.css";
 import intimg from "../assets/images/teamwork.png"
 import { Link } from "react-router-dom";
 
+
 function Intelligent() {
+  const handleCall = () => {
+    window.location.href = "tel:+919999999999";  
+  };
+
   return (
     <section className="intelligent">
       <div className="auto-container">
@@ -25,6 +30,9 @@ function Intelligent() {
           </Link>
         </div>
       </div>
+      <div className="floating-call" onClick={handleCall}>
+      📞
+    </div>
     </section>
   );
 }
