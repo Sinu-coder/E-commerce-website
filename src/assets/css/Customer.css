@@ -60,7 +60,7 @@
      animation-play-state: paused;
  }
 
- @keyframes slideInfinite {
+ /* @keyframes slideInfinite {
      0% {
          transform: translateX(0);
      }
@@ -68,7 +68,7 @@
      100% {
          transform: translateX(calc(-3790px - 252px));
      }
- }
+ } */
 
  .cum-card {
      width: 379px;
@@ -161,6 +161,10 @@
   }
   .cum-card-top {
     padding: 3px 15px;
+    flex-direction: column;
+  }
+  .cum-top-content{
+    text-align: center;
   }
 }
 @media (max-width: 576px) {
