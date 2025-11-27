@@ -95,7 +95,7 @@ function FooterSection() {
                 <div className="loc-div">
                   <div className="loc-box">
                     <h3 className="loc-h3">Malaysia Address</h3>
-                    <div className="loc-about d-flex align-items-center mt-2" style={{ gap: "10px" }}>
+                    <div className="loc-about d-flex align-items-center flex-col mt-2" style={{ gap: "10px" }}>
                       <i className="bi bi-geo-alt"></i>
                       <p className="loc-para mb-0">
                         D-16-18, Millerz Square, Jalan Klang Lama, 58000, Kuala Lumpur, Malaysia
@@ -106,7 +106,7 @@ function FooterSection() {
                 <div className="loc-div">
                   <div className="loc-box">
                     <h3 className="loc-h3">India Address</h3>
-                    <div className="loc-about d-flex align-items-center mt-2" style={{ gap: "10px" }}>
+                    <div className="loc-about d-flex align-items-center flex-col mt-2" style={{ gap: "10px" }}>
                       <i className="bi bi-geo-alt"></i>
                       <p className="loc-para mb-0">
                         Gurugram: 791, Udyog Vihar Phase 5, <br />
@@ -118,7 +118,7 @@ function FooterSection() {
                 <div className="loc-div">
                   <div className="loc-box">
                     <h3 className="loc-h3">India Address</h3>
-                    <div className="loc-about  align-items-center mt-2" style={{ gap: "10px" }}>
+                    <div className="loc-about d-flex align-items-center flex-col mt-2" style={{ gap: "10px" }}>
                       <i className="bi bi-geo-alt"></i>
                       <p className="loc-para mb-0">
                         Punjab: 616 – Industrial area B, Miller Ganj, Ludhiana, Punjab, India, 141003

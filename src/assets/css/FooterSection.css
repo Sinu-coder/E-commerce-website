@@ -166,4 +166,7 @@
     .social-media {
         padding: 8px 10px;
     }
+    .flex-col{
+        flex-direction: column;
+    }
 }
