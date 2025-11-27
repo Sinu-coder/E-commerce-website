@@ -5,9 +5,7 @@ import { Link } from "react-router-dom";
 
 
 function Intelligent() {
-  const handleCall = () => {
-    window.location.href = "tel:+917846961860";  
-  };
+  
 
   return (
     <section className="intelligent">
@@ -30,9 +28,7 @@ function Intelligent() {
           </Link>
         </div>
       </div>
-      <div className="floating-call" onClick={handleCall}>
-      📞
-    </div>
+      
     </section>
   );
 }

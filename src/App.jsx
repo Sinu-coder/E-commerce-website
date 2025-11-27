@@ -28,6 +28,7 @@ import BlogNewsData from './pages/BlogNewsData';
 import ScrollToTop from './components/ScrollToTop';
 import { UseProvider } from './context/UserContext';
 import { ThemeProvider } from './context/ThemeContext';
+import FloatingCall from './components/FloatingCall';
 // import LoginPage from './pages/LoginPage';
 
 function App() {
@@ -65,6 +66,7 @@ function App() {
         <Route path='/contact' element={<EximiContactUS/>}/>
         <Route path="/ourservice/:slug" element={< ServicePage/>} />
       </Routes>
+      <FloatingCall/>
     </BrowserRouter>
     </ThemeProvider>
     </UseProvider>
