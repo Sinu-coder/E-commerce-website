@@ -2,7 +2,7 @@ import React from 'react'
 import { Container,Row,Col } from 'react-bootstrap' 
 import "../assets/css/FooterSection.css"
 import logo from "../assets/images/next.png"
-
+import { Link } from 'react-router-dom'
 function FooterSection() {
  return (
     <section className="footer-section">
@@ -12,22 +12,22 @@ function FooterSection() {
             <Col xl={3} lg={3} md={6} sm={6} className="mt-5">
               <div className="foo-section">
                 <div className="foo-logo">
-                  <a href="#">
+                  <Link to="#" target="_blank" rel="noopener noreferrer">
                     <img src={logo} className="img-fluid" alt="Logo" width="270"/>
-                  </a>
+                  </Link>
                 </div>
                 <div className="foo-icon mt-4">
                   <h3 className="foo-h3">Follow Us:</h3>
                   <div className="foo-icon-icon mt-4">
-                    <a href="#">
+                    <Link to="#"  target="_blank" rel="noopener noreferrer">
                       <i className="bi bi-facebook social-media"></i>
-                    </a>
-                    <a href="#">
+                    </Link>
+                    <Link to="#" target="_blank" rel="noopener noreferrer">
                       <i className="bi bi-linkedin social-media"></i>
-                    </a>
-                    <a href="#">
+                    </Link>
+                    <Link to="https://www.instagram.com/chocolate_boy_rabinarayanpanda/" target="_blank" rel="noopener noreferrer">
                       <i className="bi bi-instagram social-media"></i>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
