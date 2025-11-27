@@ -43,9 +43,8 @@ function BlogNews ()  {
                     <hr />
                     <div className="flex">
                       <Link to={news.link} className="card-btn">
-                        Learn More
+                        Learn More</Link>
                         <i className="bi bi-arrow-up-right news-icon"></i>
-                      </Link>
                     </div>
                   </Card.Body>
                 </Card>

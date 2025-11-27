@@ -82,6 +82,11 @@
      color: #000;
      font-size: 17px;
  }
+ .flex{
+  display: flex;
+  align-items: center;
+  gap: 3px;
+ }
 
  .news-img-section {
      padding: 5px 7px;
