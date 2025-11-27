@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 function Intelligent() {
   const handleCall = () => {
-    window.location.href = "tel:+7846961860";  
+    window.location.href = "tel:+917846961860";  
   };
 
   return (
